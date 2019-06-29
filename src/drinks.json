@@ -1,0 +1,460 @@
+{
+    "drinks": [
+    
+         {
+        "name": "mojito",
+        "type": "cold",
+        "ingredients":[
+            "2 tbs lime juice",
+            "2 tsps sugar",
+            "1 cup crushed ice",
+            "12 mint leaves",
+            "2 oz rum",
+            "1 oz club soda"
+        ],
+        "recipe": 
+        "Stir together lime juice and sugar until sugar dissolves. Add 1/4 cup crushed ice. Rub mint leaves over rim of glass, then tear leaves in half and add to glass. Gently stir for 15 seconds, then add rum, remaining crushed ice, and club soda. Gently stir for 5 seconds."
+        },
+
+        {
+        "name": "daiquiri",
+        "type": "cold",
+        "ingredients":[
+            "2 oz rum", 
+            "1 oz lime juice", 
+            " 1/2 oz simple syrup", 
+            "2 cups crushed ice"
+        ],
+        "recipe": 
+        "Combine all ingredients in a cocktail shaker. Shake vigorously, then strain into glass."
+        },
+
+        {
+       "name": "Jonn the Beachcomber",
+       "type": "cold",
+       "ingredients":[
+       "1 oz. light rum",
+       "1 oz. barrel-aged rum",
+       "1 oz. 151-proof rum (optional)",
+       ".5 oz. allspice dram",
+       ".5 oz. grenadine",
+       ".75 oz. pineapple juice",
+       ".5 oz. lime juice"
+       ],
+       "recipe":
+       "Shake ingredients vigorously with ice. Pour over more ice in festive glassware. Garnish with straws, fruit, umbrellas, cocktail toothpicks."
+       },
+
+       {
+        "name": "Rosita",
+       "type": "cold",
+       "ingredients":[
+        "1.5 oz. mezcal",
+        ".5 oz. sweet vermouth",
+        ".5 oz. dry vermouth",
+        ".5 oz. Campari",
+        "1 dash bitters"
+       ],
+       "recipe":
+       "Stir over ice, and strain into an old fashioned glass. Wipe the rim of the glass with lemon or grapefruit twist."
+       },
+
+       {
+       "name": "Finger-Stirred Negroni",
+       "type": "cold",
+       "ingredients":[
+           "1 oz. Gin",
+           "1 oz. Campari",
+           "1 oz. Vermouth"
+       ],
+       "recipe":
+       "Pour ingredients over ice into a cocktail shaker. Stir (with your finger) and strain into a rocks glass with ice. Garnish with an orange twist."
+       },
+
+        {
+       "name": "Basil Gimlet",
+       "type": "cold",
+       "ingredients":[
+           "2 oz. gin",
+           ".75 oz. fresh lime juice",
+           ".5 oz. simple syrup",
+           "3-5 fresh basil leaves"
+       ],
+       "recipe":
+       "Add ingredients into a shaker with ice. Shake, then strain into a chilled cocktail glass. Garnish with a basil leaf."
+       },
+
+       {
+       "name": "The Salty Bird",
+       "type": "cold",
+       "ingredients":[
+            "1.5 oz. aged rum",
+           ".75 oz. Campari",
+           "1.5 oz. fresh pineapple juice",
+           ".5 oz. fresh lime juice",
+           ".5 oz. simple syrup",
+           "pinch of salt",
+           "dehydrated pineapple (optional)"
+       ],
+       "recipe":
+       "Combine all ingredients, then shake and strain into a rocks glass over fresh ice. Garnish with a pinch of salt and dehydrated pineapple."
+       },
+
+       {
+       "name": "The Parrot's Grog",
+       "type": "cold",
+       "ingredients":[
+            "1 oz. Campari",
+           ".5 oz. Spiced rum",
+           "1 oz. fresh grapefruit juice",
+           ".5 oz. fresh lime juice",
+           ".5 oz. honey syrup",
+           "club soda"
+       ],
+       "recipe":
+       "Combine all ingredients, then shake and strain into a rocks glass over fresh ice. Top with club soda, and serve with an umbrella/paper straw."
+       },
+
+       {
+       "name": "The Black Vlad",
+       "type": "cold",
+       "ingredients":[
+           "1 oz. Black rum",
+           "1 oz. Vodka*",
+           "1 oz. lime juice, freshly squeezed",
+           ".75 oz. Falernum liqueur",
+           "1 dash bitters"
+       ],
+       "recipe":
+       "Combine in a cocktail shaker and stir. Strain into a highball glass over crushed ice. Garnish with mint or rosemary. *A moonshine alternative works too."
+       },
+
+       {
+       "name": "Sour-Cherry Gin Smash",
+       "type": "cold",
+       "ingredients":[
+           "2 oz. gin",
+           "6 sour cherries",
+           "1 sugar cube",
+           ".5 oz. fresh lime juice",
+           "ginger ale",
+           "1 lime wedge"
+       ],
+       "recipe":
+       "In a cocktail shaker, combine the cherries and the sugar cube. Muddle until the sugar is broken down. Add the lime juice and gin, and then shake. Strain into a Collins glass filled with ice. Top with a splash of ginger ale and garnish with a lime wedge."
+       },
+
+       {
+       "name": "The Malacca Flip",
+       "type": "cold",
+       "ingredients":[
+           "1.75 oz. Tanqueray Malacca gin",
+           "1.5 oz. hibiscus syrup",
+           "25 oz. Maraschino liqueur",
+           "75 oz. sweet vermouth",
+           "1 fresh lemon wedge",
+           "mint leaves",
+           "1 egg white",
+           "3 dashes orange bitters"
+       ],
+       "recipe":
+       "Muddle mint and fresh lemon wedge, then add all other liquid ingredients. Dry shake. Add ice, hard shake. Rinse a cocktail martini coupe with orange bitters. Double strain into the cocktail martini coupe. Garnish with mint leaf."
+       },
+
+       {
+       "name": "The Sicilian Firing Squad",
+       "type": "cold",
+       "ingredients":[
+           "1 oz. mezcal",
+           "1 oz. Solerno Blood Orange liqueur",
+           ".5 oz. grenadine",
+           "1 oz. freshly squeezed lime juice",
+           "2 dash Angostura bitters"
+       ],
+       "recipe":
+       "Combine ingredients into a cocktail shaker. Shake and strain over fresh ice in a rocks glass. Garnish with a lime wheel and a Luxardo cherry."
+       },
+
+       {
+       "name": "The Paloma Picante",
+       "type": "cold",
+       "ingredients":[
+           "2 oz. Blanco tequila",
+           "1 oz. habanero nectar",
+           "3 oz. grapefruit soda",
+           "4 cubes ruby red grapefruit"
+       ],
+       "recipe":
+       "Muddle the grapefruit cubes in a highball glass. Add the rest of the ingredients and crushed ice, and then top with a splash of grapefruit soda."
+       },
+
+       {
+       "name": "The Close Shave",
+       "type": "cold",
+       "ingredients":[
+           "1 oz. vodka",
+           "1.5 oz. Elderflower liqueur",
+           "1 dash Prosecco"
+       ],
+       "recipe":
+       "Combine the vodka and elderflower into a cocktail shaker, shake, and then strain into a chilled martini glass. Top it with a splash of Prosecco and garnish with fresh rosemary."
+       },
+
+       {
+       "name": "The Raspberry Gin Rickey",
+       "type": "cold",
+       "ingredients":[
+            "1.5 oz. gin",
+           "4 oz. club soda",
+           "2 tbsp. simple syrup",
+           "fresh raspberries",
+           "2 tbsp. lime juice"
+       ],
+       "recipe":
+       "Muddle two raspberries in the bottom of a highball glass. Add the rest of the ingredients together with ice. Garnish with a lime slice and more raspberries."
+       },
+
+       {
+       "name": "The Sidecar",
+       "type": "cold",
+       "ingredients":[
+       "1.5 oz. VS or VSOP cognac",
+       ".75 oz. Orange Liqueur",
+       ".75 oz. fresh lemon juice",
+       "sugar"
+       ],
+       "recipe":
+       "Coat the rim of a cocktail glass with sugar. Add the rest of the ingredients into a cocktail shaker with ice and stir. Strain into the cocktail glass and garnish with an orange peel."
+       },
+
+       {
+       "name": "Strawberry Basil Bourbon Lemonade",
+       "type": "cold",
+       "ingredients":[
+           "8 oz. bourbon",
+           "2 c. strawberries",
+           "2 tbsp. Sugar",
+           "1/2 c. fresh lemon juice",
+           "12 basil leaves",
+           "8 basil sprigs",
+           "bitters"
+       ],
+       "recipe":
+       "Place strawberries into blender and add 2 tbsp of sugar. Add about 1/4 of a cup of water and pulse until pureed. In a medium saucepan over a medium-high heat, add the puree and 1 3/4 cup of water. Heat until mixture begins to boil. Allow to cool and then strain through a sieve. In a large pitcher, combine the strawberry syrup, bourbon, 1 cup of water, lemon juice, basil leaves, and a splash of bitters. Stir and then pour into eight glasses with ice. Garnish each with a basil sprig."
+       },
+
+       {
+        "name": "Irish hot whiskey",
+        "type": "hot",
+        "ingredients": [
+            "1.5 oz whiskey", 
+            "1/2 oz lemon", 
+            "6 cloves", 
+            "1 tbs sugar"
+        ],
+        "recipe":
+        "Add everything but the water into a mug. Pour hot water over the top, stir."
+    },
+
+    {
+        "name": "mulled wine",
+        "type": "hot",
+        "ingredients": [
+        "8 oz Drambuie",
+        "1 bottle Red Wine",
+        "2 oz honey",
+        "1 spearmint-peppermint tea bag",
+        "Peel of ½ grapefruit",
+        "Peel of 1 orange",
+        "2 tbsp fresh grated ginger",
+        ".5 tsp whole juniper berries",
+        ".5 tsp whole allspice berries",
+        ".5 tsp whole peppercorns",
+        "1 cinnamon stick"
+        ],
+        "recipe":
+        "With a mortar and pestle grind the berries and peppercorns and add to a sauce pan. Add all other ingredients to the sauce pan and bring to a boil over medium heat. Remove from heat and let stand for 1 minute. Strain and serve. If not hot enough, bring back to a simmer. Serve hot."
+    },
+
+    {
+    "name": "Hot Toddy",
+    "type": "hot",
+    "ingredients":[
+        "2 oz bourbon",
+        ".75 oz fresh lemon juice",
+        "Heaping teaspoon honey",
+        "4oz very hot water",
+        "1 cinnamon stick",
+        "1 lemon slice",
+        "cloves"
+    ],
+    "recipe": 
+    "Add lemon juice, honey, and bourbon to a mug and fill with hot water. Stir to blend and dissolve honey. Add a cinnamon stick and lemon slice studded with cloves for extra aromatics."
+    },
+
+    {
+    "name": "Cinnamon Tequila Hot Toddy",
+    "type": "hot",
+    "ingredients":[
+        ".75 oz cinnamon bark syrup",
+        ".1.5 oz Tequila",
+        "5 parts hot water",
+        ".25 oz honey",
+".25 oz fresh lemon juice",
+"3 dashes vanilla bitters",
+"cinnamon sticks"
+    ],
+    "recipe": 
+    "*Cinnamon Bark Syrup: Combine equal parts sugar and water and 3 cinnamon sticks in a saucepan and bring to a boil to create cinnamon bark syrup. Remove cinnamon sticks. Combine the remainder of the ingredients in a coffee glass. Stir and garnish with a cinnamon stick."
+},
+   
+{
+    "name": "Prince Pum King",
+    "type": "hot",
+    "ingredients":[
+    "1 oz Drambuie",
+    "1.5 oz pumpkin puree",
+    "1/8 tsp ground cinnamon",
+    "1/8 tsp ground nutmeg",
+    "4 oz steamed whole milk (or choice milk-base)"
+    ],
+    "recipe": 
+    "Steam milk, pumpkin puree and spices together until hot. Double-strain into cup. Stir in Drambuie. Top with additional milk foam and ground nutmeg."
+    },
+{
+    "name": "Ancho Reyes Original Hot Chocolate",
+    "type": "hot",
+    "ingredients":[
+    "1.25 oz Ancho Reyes Original",
+    "4 oz half & half",
+    "2 oz chocolate mix*"
+    ],
+    "recipe": 
+    "In a saucepan, bring half and half to a simmer (almost boiling). Add chocolate mix and heat, bringing the combined liquids to a simmer. In a coffee cup, pour Ancho Reyes, followed by hot chocolate milk mixture. Garnish with a whole cinnamon stick and an orange peel. *Chocolate mix: Combine 100% cacao powder with turbinado sugar at a 1:3/4 ratio (1 part cacao powder to ¾ part turbinado sugar). Add hot water lightly while stirring, to reach a thick, rich, liquid consistency. Final ratio should be approximately 1 part cacao powder to ¾ part turbinado sugar, to ¾ part water (by volume) Store refrigerated in a sealed container."
+    },
+{
+    "name": "Red Wine Spiced Hot Toddy",
+    "type": "hot",
+    "ingredients":[
+    ".5 cup Red Wine Blend syrup*",
+    "1-2 cinnamon sticks",
+    "1-2 star anise",
+    "Granulated Sugar",
+    "8-12 oz hot water",
+    "6 oz Bourbon",
+    "2 oz lemon juice"
+    ],
+    "recipe": "In a sauce pan, lightly simmer wine, the cinnamon sticks, broken, and star anise until warm. Add equal parts sugar and stir until dissolved. Remove from heat and strain. For Hot Toddy: Combine bourbon, lemon juice, and spiced syrup in a mug. Top with hot water and stir. Garnish with a smoke cinnamon stick and lemon wedge."
+    },
+
+    {
+    "name": "Docteur du Miel",
+    "type": "hot",
+    "ingredients":[
+        ".25 oz Oak cognac",
+        "1 tsp honey",
+        ".25 oz simple syrup",
+        "Juice of half a lemon",
+        "Hot water",
+        "Cloves"
+    ],
+    "recipe": 
+    "Mix the honey, lemon, simple syrup and cognac. Stir. Add hot water, and cloves, if desired."
+    },
+{
+    "name": "Cocoa Buie II",
+    "type": "hot",
+    "ingredients":[
+        "2 oz Drambuie",
+        "9 oz hot milk",
+        "3 oz. hot cocoa mix",
+        "1/8 tsp ground cinnamon",
+        "1/8 tsp kosher salt"
+    ],
+    "recipe": 
+    "In a saucepan combine all ingredients and warm over medium heat. Stir slowly until simmering. Serve hot, garnished with miniature marshmallows if desired."
+    },
+
+    {
+    "name": "Irish Coffee",
+    "type": "hot",
+    "ingredients":[
+        "2 oz Irish Whiskey",
+        ".5 oz raw sugar simple syrup",
+        "6 oz Method Roasters coffee"
+    ],
+    "recipe": 
+    "Combine all ingredients in a mug or coffee cup. Top with shaken heavy whipping cream and a dusting of nutmeg."
+    },
+
+    {
+    "name": "Apple Cardamom Toddy",
+    "type": "hot",
+    "ingredients":[
+        "2 oz Laird's Applejack",
+        ".5 oz lemon juice",
+        ".5 oz honey",
+        "3 oz cardamom-infused genmaicha green tea (add 1 cardamom pod to steep with the genmaicha tea)"
+    ],
+    "recipe": 
+    "Steep tea. Combine all ingredients in a glass or toddy mug and stir. Garnish with cinnamon stick."
+    },
+
+    {
+    "name": "Hot Honey Butter",
+    "type": "hot",
+    "ingredients":[
+        "2 oz Drambuie",
+        "1 tbsp natural apple butter",
+        ".5 tbsp unsalted butter",
+        "6 oz steamed whole milk (or choice milk-base)",
+        "1 pinch kosher salt",
+        "1/8 tsp ground cinnamon",
+        "1/8 tsp ground nutmeg"
+    ],
+    "recipe": 
+    "Steam milk, apple butter and spices together until hot. Double-strain into cup over butter. Stir in Drambuie. Top with additional milk foam."
+    },
+
+    {
+    "name": "Last Stop Darjeeling",
+    "type": "hot",
+    "ingredients":[
+        "1.5 oz Cider Bitters",
+        "1.5 oz Dry sherry",
+        ".25 oz lemon juice",
+        "1/2 pot Black Tea",
+        "3 bar spoons agave nectar"
+    ],
+    "recipe": 
+    "Make 1/2 pot of black tea and let step. Fill tea mug 3/4 full with hot tea, add remaining cocktail mixture and serve warm with a lemon twist."
+    },
+
+    {
+    "name": "Spiced Rum and Hot Chocolate",
+    "type": "hot",
+    "ingredients":[
+        "1.5 oz Spiced Rum",
+        "1.5 oz Butterscotch Schnapps",
+        "3 oz hot chocolate",
+        "Dash of orange bitters"
+    ],
+    "recipe": 
+    "Add equal parts liquor to hot chocolate, top with whipped cream, shaved chocolate, and garnish with a cinnamon stick or candy cane."
+    },
+
+    {
+    "name": "Sunshine",
+    "type": "hot",
+    "ingredients":[
+        "2 oz. white rum",
+        ".5 oz. French vermouth",
+        "1 oz. pineapple juice",
+        "1 dash grenadine"
+    ],
+    "recipe": 
+    "Shake ingredients well with cracked ice, then strain into a chilled cocktail glass."
+    }
+
+]
+}
