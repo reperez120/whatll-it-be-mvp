@@ -2,8 +2,8 @@ require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
 const {API_BASE_URL} = require('./config')
-// const cors = require('cors')
-// const {CLIENT_ORIGIN} = require('./config')
+const cors = require('cors')
+const {CLIENT_ORIGIN} = require('./config')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const app = express()
@@ -13,18 +13,18 @@ const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
   : 'common';
 
-//   app.use(
-//     cors({
-//         origin: CLIENT_ORIGIN
-//     })
-// );
+app.use(
+  cors({
+    origin: CLIENT_ORIGIN
+  })
+);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Whatll It Be app server!')
+  res.send('Welcome to the Whatll It Be API!')
 })
 
 app.get('/drinks', function handleGetDrinks(req,res) {
-    let response = DRINKS.drinks;
+  let response = DRINKS.drinks;
 
 if (req.query.name) {
     response = response.filter(drink =>
