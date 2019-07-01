@@ -1,23 +1,22 @@
-require('dotenv').config()
-const express = require('express')
-const morgan = require('morgan')
-const {API_BASE_URL} = require('./config')
-const cors = require('cors')
-const {CLIENT_ORIGIN} = require('./config')
-const helmet = require('helmet')
-const { NODE_ENV } = require('./config')
-const app = express()
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const morgan = require('morgan');
+const {CLIENT_ORIGIN} = require('./config');
+const helmet = require('helmet');
+const { NODE_ENV } = require('./config');
+const app = express();
+const {API_BASE_URL} = require('./config');
 const DRINKS = require('./drinks.json')
 
 const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
   : 'common';
 
-app.use(
-  cors({
-    origin: CLIENT_ORIGIN
-  })
-);
+app.use(morgan(morganOption))
+ app.use(cors())
+ app.use(helmet())
+
 
 app.get('/', (req, res) => {
   res.send('Welcome to the Whatll It Be API!')
@@ -40,18 +39,14 @@ if (req.query.name) {
 })
 
 app.use(function errorHandler(error, req, res, next) {
-    let response
-    if (process.env.NODE_ENV === 'production') {
-    response = { error: { message: 'server error' } }
-    } else {
-     console.error(error)
-    response = { message: error.message, error }
-    }
-    res.status(500).json(response)
-    })
-
-app.use(morgan(morganOption))
-
-app.use(helmet())
+  let response
+  if (NODE_ENV === 'production') {
+  response = { error: { message: 'server error' } }
+  } else {
+    console.error(error)
+  response = { message: error.message, error }
+  }
+  res.status(500).json(response)
+})
 
 module.exports = app
